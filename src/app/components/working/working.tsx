@@ -17,7 +17,7 @@ const working = () => {
           </p>
 
           <p className="text-[#888888] w-[100%] md:w-[50%] text-3xl pt-3 leading-[3rem]">
-            Our platform serves as the nucleus of your organization's collective
+            Our platform serves as the nucleus of your organization&apos;s collective
             wisdom.
           </p>
 
@@ -38,7 +38,7 @@ const working = () => {
           </p>
 
           <p className="text-[#888888] w-[100%] md:w-[60%] text-3xl pt-3 leading-[3rem]">
-            Our platform serves as the nucleus of your organization's collective
+            Our platform serves as the nucleus of your organization&apos;s collective
             wisdom.
           </p>
 
