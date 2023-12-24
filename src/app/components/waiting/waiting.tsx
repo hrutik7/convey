@@ -8,13 +8,13 @@ const waiting = () => {
           <p className="text-6xl">🚀</p>
         </div>
         <div>
-          <p className="font-avro mt-2 text-[#4b2484] text-5xl">
+          <p className="font-avro mt-2 text-center text-[#4b2484] text-5xl">
             Join our waiting list
           </p>
         </div>
 
         <div className="flex justify-center items-center mt-5">
-          <div className="flex justify-center items-center">
+          <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
             <input
               className="border-2 border-[#4b2484] w-[300px] h-[50px] rounded-lg outline-none px-5"
               type="text"
