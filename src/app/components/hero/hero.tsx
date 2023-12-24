@@ -13,14 +13,14 @@ const Hero = () => {
               height={350}
             />
           </div>
-          <div className="flex flex-row justify-around mt-10 w-[50%]">
-            <div className="flex cursor-pointer align-middle bg-[#FED374] justify-center rounded-xl h-20 p-1 w-[16rem]">
+          <div className="flex md:flex-row gap-3 flex-col justify-around mt-10 sm:w-[50%]">
+            <div className="flex cursor-pointer align-middle bg-[#FED374] justify-center rounded-xl h-20 p-1 w-[100%] md:w-[16rem]">
               <p className="flex text-2xl font-semibold font-poppins tracking-wide items-center text-black justify-center">
                 Start Searching
               </p>
             </div>
 
-            <div className="flex cursor-pointer align-middle border-solid border-white border-2 bg-[#7749BB] justify-center rounded-xl h-20 p-1 w-[16rem]">
+            <div className="flex cursor-pointer align-middle border-solid border-white border-2 bg-[#7749BB] justify-center rounded-xl h-20 p-1 w-[100%] md:w-[16rem]">
               <p className="flex text-2xl font-semibold font-poppins tracking-wide items-center text-white justify-center">
                 pricing
               </p>
@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col items-center text-white mt-10">
-            <p className="text-6xl font-avro">Universal search for customer success</p>
+            <p className="text-6xl text-center font-avro">Universal search for customer success</p>
             <p className="text-2xl mt-6 w-[74%] text-center opacity-[0.7] font-poppins">
             Empower Your Teams: Elevate Customer Interactions with Seamless Search and Intelligent Response Generation – Your Unified Hub for Unleashing Tribal Knowledge
 
@@ -50,7 +50,7 @@ const Hero = () => {
             <p className="flex text-4xl mt-20 text-white font-avro justify-center">
                 Trusted By
             </p>
-            <div className="flex flex-row justify-around mt-20">
+            <div className="flex gap-3 flex-col md:flex-row justify-center align-middle md:justify-around mt-20">
               <div className="flex align-center justify-center">
                 <Image
                   src={
@@ -62,7 +62,7 @@ const Hero = () => {
                 />
               </div>
 
-              <div className="mt-3">
+              <div className=" flex mt-3 justify-center">
                 <Image
                   src={
                     "https://framerusercontent.com/images/xxxrBDnrjk0B1bXrK52q5EgrE.svg"
@@ -73,7 +73,7 @@ const Hero = () => {
                 />
               </div>
 
-              <div>
+              <div className="flex mt-3 justify-center">
                 <Image
                   src={
                     "https://framerusercontent.com/images/676z4qqUREPWwmRCu8HZ0n2c.svg"
@@ -85,7 +85,7 @@ const Hero = () => {
               </div>
 
 
-              <div>
+              <div className="flex mt-3 justify-center">
                 <Image
                   src={
                     "https://framerusercontent.com/images/2AAjSYmUjZcw7m2qPiVqPlBxo.svg"
