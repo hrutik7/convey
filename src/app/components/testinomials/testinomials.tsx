@@ -36,7 +36,7 @@ const testinomials = () => {
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-xl text-gray-500 font-poppins  leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-xl text-gray-500 font-poppins  leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">&quot;</span>&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt ratione dolor exercitationem minima quas itaque saepe quasi architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">&quot;</span></p>
                         </div>
                     </div>
                     <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -49,7 +49,7 @@ const testinomials = () => {
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-xl text-gray-500 font-poppins  leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error ipsam sint quam tempora vel.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-xl text-gray-500 font-poppins  leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">&quot;</span>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error ipsam sint quam tempora vel.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">&quot;</span></p>
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ const testinomials = () => {
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-xl text-gray-500 font-poppins  leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-xl text-gray-500 font-poppins  leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">&quot;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, obcaecati ullam excepturi dicta error deleniti sequi.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">&quot;</span></p>
                         </div>
                     </div>
                     <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -77,7 +77,7 @@ const testinomials = () => {
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-xl text-gray-500 font-poppins  leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore voluptatum nostrum atque, corrupti, vitae esse id accusamus dignissimos neque reprehenderit natus, hic sequi itaque dicta nisi voluptatem! Culpa, iusto.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-xl text-gray-500 font-poppins  leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">&quot;</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore voluptatum nostrum atque, corrupti, vitae esse id accusamus dignissimos neque reprehenderit natus, hic sequi itaque dicta nisi voluptatem! Culpa, iusto.<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">&quot;</span></p>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ const testinomials = () => {
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-xl text-gray-500 font-poppins  leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem porro obcaecati dicta, quibusdam sunt ipsum, laboriosam nostrum facere exercitationem pariatur deserunt tempora molestiae assumenda nesciunt alias eius? Illo, autem!<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-xl text-gray-500 font-poppins  leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">&quot;</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, voluptatem porro obcaecati dicta, quibusdam sunt ipsum, laboriosam nostrum facere exercitationem pariatur deserunt tempora molestiae assumenda nesciunt alias eius? Illo, autem!<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">&quot;</span></p>
                         </div>
                     </div>
                     <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
@@ -105,7 +105,7 @@ const testinomials = () => {
                             </div>
                         </div>
                         <div className="w-full">
-                            <p className="text-xl text-gray-500 font-poppins  leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto, explicabo, cupiditate quas totam!<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
+                            <p className="text-xl text-gray-500 font-poppins  leading-tight"><span className="text-lg leading-none italic font-bold text-gray-400 mr-1">&quot;</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto, explicabo, cupiditate quas totam!<span className="text-lg leading-none italic font-bold text-gray-400 ml-1">&quot;</span></p>
                         </div>
                     </div>
                 </div>
