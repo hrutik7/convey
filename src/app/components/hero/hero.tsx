@@ -13,7 +13,7 @@ const Hero = () => {
               height={350}
             />
           </div>
-          <div className="flex flex-row justify-around mt-10 w-[30%]">
+          <div className="flex flex-row justify-around mt-10 w-[50%]">
             <div className="flex cursor-pointer align-middle bg-[#FED374] justify-center rounded-xl h-20 p-1 w-[16rem]">
               <p className="flex text-2xl font-semibold font-poppins tracking-wide items-center text-black justify-center">
                 Start Searching

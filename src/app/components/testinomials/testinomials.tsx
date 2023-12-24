@@ -11,7 +11,7 @@ const testinomials = () => {
                 </p>
             </div>
             <div>
-                <p className='font-avro mt-2 text-white text-5xl'>
+                <p className='font-avro text-center mt-2 text-white text-5xl'>
                 See what our users have to say
                 </p>
             </div>
@@ -24,8 +24,8 @@ const testinomials = () => {
     <div className="w-full bg-[#4b2484]   text-gray-800">
         <div className="w-full max-w-6xl mx-auto">
            
-            <div className="-mx-3 md:flex items-start">
-                <div className="px-3 md:w-1/3">
+            <div className=" md:flex items-start">
+                <div className="px-3 w-[100%] md:w-1/3">
                     <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                         <div className="w-full flex mb-4 items-center">
                             <div className="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200">
