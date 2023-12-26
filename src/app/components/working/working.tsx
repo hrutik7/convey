@@ -5,13 +5,33 @@ import Image from "next/image";
 import { motion, Variants } from "framer-motion";
 const working = () => {
   const imageAnimate = {
-    offscreen: { x: -100, opacity: 0 },
-    onscreen: {
-      x: 0,
-      opacity: 1,
-      rotate: [0, 10, 0],
-      transition: { type: "spring", bounce: 0.4, duration: 1 },
+    initial : {
+      opacity: 0,
+      x: -100
     },
+    animate : {
+      opacity: 1,
+      x: 0,
+      transition: {
+        duration: 1,
+        ease: "easeOut"
+      }
+    }
+  };
+
+  const imageAnimate_2 = {
+    initial : {
+      opacity: 0,
+      x: 100
+    },
+    animate : {
+      opacity: 1,
+      x: 0,
+      transition: {
+        duration: 1,
+        ease: "easeOut"
+      }
+    }
   };
 
   return (
@@ -22,6 +42,9 @@ const working = () => {
       <div className="flex flex-col md:flex-row justify-around mt-20 w-[95%]">
         <motion.div
           variants={imageAnimate}
+          initial="initial"
+          whileInView={"animate" }
+          viewport={{once: true}}
           className="flex justify-center w-[100%] md:w-[50%]"
         >
           <div className="flex justify-center w-[100%] md:w-[50%]">
@@ -67,14 +90,19 @@ const working = () => {
           </div>
         </div>
 
-        <div className="flex flex-col w-[100%] md:w-[50%]">
+        <motion.div 
+        variants={imageAnimate_2}
+        initial="initial"
+        whileInView={"animate" }
+        viewport={{once: true}}
+        className="flex flex-col w-[100%] md:w-[50%]">
           <Image
             src="https://framerusercontent.com/images/Fh2qItUTHpt6cia2UxfMWR0nIs.png"
             alt=""
             width={500}
             height={500}
           />
-        </div>
+        </motion.div>
       </div>
     </div>
   );

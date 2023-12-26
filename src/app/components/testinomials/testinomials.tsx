@@ -1,6 +1,26 @@
+"use client"
+
 import React from 'react'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
+
 const testinomials = () => {
+    const AnimationVariants = {
+        initial : {
+          opacity: 0,
+          y: 100
+        },
+        animate : {
+          opacity: 1,
+          y: 0,
+          transition: {
+            duration: 1,
+            ease: "easeOut"
+          }
+        }
+        
+    
+      }
   return (
     <div>
         <div className='bg-[#4b2484] flex flex-col justify-center w-[100%]'>
@@ -24,7 +44,13 @@ const testinomials = () => {
     <div className="w-full bg-[#4b2484]   text-gray-800">
         <div className="w-full max-w-6xl mx-auto">
            
-            <div className=" md:flex items-start">
+            <motion.div 
+            variants={AnimationVariants}
+            initial="initial"
+            animate="animate"
+            whileInView={"animate" }
+            viewport={{once: true}}
+            className=" md:flex items-start">
                 <div className="px-3 w-[100%] md:w-1/3">
                     <div className="w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6">
                         <div className="w-full flex mb-4 items-center">
@@ -109,7 +135,7 @@ const testinomials = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         </div>
     </div>
 </div>

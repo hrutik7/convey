@@ -4,6 +4,23 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 const Hero = () => {
+
+  const AnimationVariants = {
+    initial : {
+      opacity: 0,
+      y: 100
+    },
+    animate : {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 1,
+        ease: "easeOut"
+      }
+    }
+    
+
+  }
   return (
     <div>
       <div className="bg-gradient-to-b h-auto p-10 from-[#4B2484] to-[#8353ca]">
@@ -62,7 +79,12 @@ const Hero = () => {
             <p className="flex text-4xl mt-20 text-white font-avro justify-center">
               Trusted By
             </p>
-            <div className="flex gap-3 flex-col md:flex-row justify-center align-middle md:justify-around mt-20">
+            <motion.div className="flex gap-3 flex-col md:flex-row justify-center align-middle md:justify-around mt-20"
+            variants={AnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            viewport={{once: true}}
+            >
               <div className="flex align-center justify-center">
                 <Image
                   src={
@@ -106,7 +128,7 @@ const Hero = () => {
                   height={150}
                 />
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
